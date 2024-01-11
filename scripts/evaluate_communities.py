@@ -37,7 +37,7 @@ def _generate_senior_living_communities(
             random.uniform(3.5, 5.0), 1
         )  # Generate a random reviews/ratings score (between 3.5 and 5.0)
 
-        community = list[SeniorLivingTaskArgs](
+        community = SeniorLivingTaskArgs(
             name=name,
             location=location,
             cost=cost,
