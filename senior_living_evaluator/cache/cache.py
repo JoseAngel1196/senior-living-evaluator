@@ -17,6 +17,7 @@ def load_results(group_id: UUID) -> list[SeniorLivingTaskResult]:
     result_json = _REDIS.get(name=f"{_RESULT_PREFIX}{group_id}")
     if not result_json:
         return []
+        
     parsed_results: list[SeniorLivingTaskResult] = []
     for result in json.loads(result_json):
         try:
