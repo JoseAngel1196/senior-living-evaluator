@@ -39,6 +39,7 @@ You'll need to provide an ID obtained from running the evaluate_communities scri
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/senior-living-rating-loader.git```
+   git clone https://github.com/your-username/senior-living-rating-loader.git
+   ```
 2. Run `make start-worker`
 3. Run the scripts.
