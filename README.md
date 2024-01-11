@@ -1,4 +1,4 @@
-# Senior Living Community Rating Evalutor
+# Senior Living Community Rating Evaluator
 
 ## Overview
 
