@@ -2,8 +2,6 @@
 
 ## Overview
 
-This script provides functionalities to load and display the rating results for senior living communities based on a specific group ID. The script interacts with Celery tasks to evaluate and store community ratings, allowing users to retrieve and view the ratings using the provided group ID.
-
 This project evaluates senior living communities using a rating system based on specific criteria. Each criterion is assigned a weight based on a perceived importance for a senior living community. Here's the breakdown of the criteria along with their respective weights:
 
 * Location: 20%
