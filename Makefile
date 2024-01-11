@@ -16,6 +16,7 @@ install:
 ruff:
 	./scripts/run_ruff.sh
 
+# Start worker
 .PHONY: start-worker
 start-worker:
 	poetry run celery -A senior_living_evaluator.celery.tasks worker --concurrency=4 --loglevel=INFO
