@@ -2,8 +2,8 @@ from celery import Celery
 
 from senior_living_evaluator.settings import CELERY_QUEUE_NAME
 
-_CELERY_BROKER_URI = "redis://{CELERY_BROKER_ENDPOINT}/0"
-_CELERY_RESULT_BACKEND_URI = "redis://{CELERY_BROKER_ENDPOINT}/1"
+_CELERY_BROKER_URI = f"redis://{CELERY_BROKER_ENDPOINT}/0"
+_CELERY_RESULT_BACKEND_URI = f"redis://{CELERY_BROKER_ENDPOINT}/1"
 
 
 class CeleryBase:
